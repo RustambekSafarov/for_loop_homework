@@ -6,4 +6,9 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    sum = 1
+    for i in range(N):
+        if i != 0:
+            sum += 1/i
+    return sum
+print(main(4))
