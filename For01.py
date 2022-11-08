@@ -10,7 +10,7 @@ def main(n):
         list: return  answer
     """
     x = []
-    for i in range(n):
+    for i in range(n): 
         x.append(i)
     return x
 
